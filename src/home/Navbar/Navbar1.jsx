@@ -41,17 +41,23 @@ const Navbar1 = () => {
         </div>
 
         <div className="h-full w-[20%] bg-purple-200">
-          <div className="mt-4 flex ml-20">
+          <div className="mt-4 flex ml-16">
             {/* <b>
               <span className='italic ml-8'>Hello</span>
               ,user
             </b> */}
-            <FaHouseUser className="ml-[50%] mt-1" />
+            <FaHouseUser className="mt-1" />
             <Link
               to="/login"
               className="ml-2 px-4 pb-1 bg-blue-500 text-white rounded hover:bg-blue-700"
             >
               LogIn
+            </Link>
+            <Link
+              to="/admin"
+              className="ml-2 px-4 pb-1 bg-blue-500 text-white rounded hover:bg-green-700"
+            >
+              Admin
             </Link>
           </div>
         </div>

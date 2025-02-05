@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineSearch } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
   return (
@@ -44,12 +45,12 @@ const Navbar2 = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#help"
+                <Link
+                  to="/add-recipe"
                   className="text-base hover:text-gray-500 transition duration-300"
                 >
                   <b>Add Recipe</b>
-                </a>
+                </Link>
               </li>
             </ul>
 
