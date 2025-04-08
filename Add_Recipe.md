@@ -29,6 +29,9 @@ Boby
 {
 "RecipeName" : "String"
 }
+```
+## Error Response
+```
 400 - Bad Request - Incorrect/User/Password
 404 - Not Found
 500 - Internal Server Error
