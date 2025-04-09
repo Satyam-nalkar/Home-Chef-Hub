@@ -14,7 +14,7 @@ Content-Type : Application/Json
 {
   "message": "Recipe updated successfully",
   "updatedRecipe": {
-    "id": "string",
+    "id": "int",
     "Image": "string",
     "Time": "string",
     "Type": "string",
@@ -30,7 +30,7 @@ Content-Type : Application/Json
 200 - Success
 Boby
 {
-"Id" : "String"
+"Id" : "int"
 }
 
 ```

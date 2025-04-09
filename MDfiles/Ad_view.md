@@ -1,6 +1,6 @@
-# Recipe_count
+# Ad_view
 ```
-GET /recipes/count/{id}
+GET /ad/{id}
 
 ```
 
@@ -11,17 +11,25 @@ Content-Type : Application/Json
 ```
 ## Request Boby
 ```
-  "id": "string",
-  "recipecount": number
+```{
+  "Id":"int",
+  "Image": "string",
+  "Name": "string",
+  "Discription": "string",
+  "Url": "string"
+}
 
-```
 ## Response
 ```
 200 - Success
 Boby
 {
-"recipeCont" : "Id"
+"Id" : "int"
 }
+
+```
+## Error Response
+```
 400 - Bad Request -  Invalid ID format
 404 - Not Found
 500 - Internal Server Error

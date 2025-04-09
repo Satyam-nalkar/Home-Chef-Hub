@@ -1,6 +1,6 @@
 # Delete_Recipes
 ```
-DELETE /recipes/{id}
+DELETE /recipe/delete/{id}
 
 ```
 
@@ -30,7 +30,7 @@ Content-Type : Application/Json
 200 - Success
 Boby
 {
-"Id" : "String"
+"Id" : "int"
 }
 
 ```

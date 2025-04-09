@@ -11,8 +11,8 @@ Content-Type : Application/Json
 ```
 ## Request Boby
 ```
-  "id": "string",
-  "Type": "string",
+  "id": "int",
+  "Type":"string",
   "recipecount": number
 
 ```
@@ -21,11 +21,8 @@ Content-Type : Application/Json
 200 - Success
 Boby
 {
-"recipeTypeCount" : "Id"
+"recipeCont" : "Id"
 }
-```
-## Error Response
-```
 400 - Bad Request -  Invalid ID format
 404 - Not Found
 500 - Internal Server Error

@@ -1,4 +1,4 @@
-# Login
+# Add_Recipe
 ```
 POST /user/recipe
 
@@ -12,7 +12,7 @@ Content-Type : Application/Json
 ## Request Boby
 ```
 
-  "id": "string",
+  "Id": "int",
   "RecipeName": "string",
   "Time": "string",
   "Type": "string",
@@ -27,7 +27,7 @@ Content-Type : Application/Json
 200 - Success
 Boby
 {
-"RecipeName" : "String"
+"message" : "Recipe added successfully!"
 }
 ```
 ## Error Response

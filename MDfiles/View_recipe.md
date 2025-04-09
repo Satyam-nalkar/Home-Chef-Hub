@@ -1,6 +1,6 @@
-# Login
+# View_Recipe
 ```
-GET /recipes/search?recope.Id={id}
+GET /recipes/{id}
 
 ```
 
@@ -11,15 +11,24 @@ Content-Type : Application/Json
 ```
 ## Request Boby
 ```
- "id": "string"
- "Ingredient": "string"
-```
+```{
+  "id": "int",
+  "Image": "string",
+  "RecipeName": "string",
+  "Time": "string",
+  "Type": "string",
+  "Rating": "number",
+  "Ingredients": "string",
+  "Discription": "string",
+  "Url": "string"
+}
+
 ## Response
 ```
 200 - Success
 Boby
 {
-"Ingredients" : "String"
+"Id" : "int"
 }
 
 ```
